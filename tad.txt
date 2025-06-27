@@ -21,11 +21,11 @@ htad:tad_id rdf:type owl:Class ;
     obo:RO_0002162 obo:NCBITaxon_9606 ;
     dc:hasVersion assembly:GCF_000001405.26 ;
     obo:BFO_0000050 nuccore:NC_000001.11 ;
-    obo:GENO_0000895 "start_position"^^<http://www.w3.org/2001/XMLSchema#integer> ;
-    obo:GENO_0000894 "end_position"^^<http://www.w3.org/2001/XMLSchema#integer> .
+    obo:GENO_0000895 "start_position" ;
+    obo:GENO_0000894 "end_position" .
 
-htad:tad_id#database_name rdf:type htad:TADHS00000000001 ;
-    skos:definition "Topologically associated domain located in Homo sapiens chr1 between start_position and end_position according to database_name" .
+htad:tad_id_database_name rdf:type htad:TADHS00000000001 ;
+    skos:definition "Topologically associated domain located in Homo sapiens chr1 between start_position and end_position according to database_name" ;
     skos:prefLabel "tad#tad_id#database_name" ;
     obo:TXPO_0003500 obo:BTO_ID ;
     obo:TXPO_0003500 obo:CL_ID ;
